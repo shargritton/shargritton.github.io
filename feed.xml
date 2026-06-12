@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>Portfolio</title>
+    <link href="https://shargritton.github.io/feed.xml" rel="self" />
+    <link href="https://shargritton.github.io" />
+    <updated>2026-06-13T06:00:01+08:00</updated>
+    <author>
+        <name>shar</name>
+    </author>
+    <id>https://shargritton.github.io</id>
+
+    <entry>
+        <title>网站测试</title>
+        <author>
+            <name>shar</name>
+        </author>
+        <link href="https://shargritton.github.io/wang-zhan-ce-shi.html"/>
+        <id>https://shargritton.github.io/wang-zhan-ce-shi.html</id>
+
+        <updated>2026-06-13T06:00:01+08:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    ref shar 这是一个测试链接
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                
+    <figure class="blockquote">
+      <blockquote>ref</blockquote>
+      <figcaption>shar</figcaption>
+    </figure>
+
+  <p>
+    这是一个测试链接
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://shargritton.github.io/media/posts/12/cxg.jpg" height="640" width="640" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://shargritton.github.io/media/posts/12/responsive/cxg-xs.jpg 640w ,https://shargritton.github.io/media/posts/12/responsive/cxg-sm.jpg 768w ,https://shargritton.github.io/media/posts/12/responsive/cxg-md.jpg 1024w ,https://shargritton.github.io/media/posts/12/responsive/cxg-lg.jpg 1366w ,https://shargritton.github.io/media/posts/12/responsive/cxg-xl.jpg 1600w ,https://shargritton.github.io/media/posts/12/responsive/cxg-2xl.jpg 1920w">
+      
+    </figure>
+            ]]>
+        </content>
+    </entry>
+</feed>
