@@ -1,10 +1,11 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "Portfolio",
+    "title": "Shar Portfolio",
     "description": "",
     "home_page_url": "https://shargritton.github.io",
     "feed_url": "https://shargritton.github.io/feed.json",
     "user_comment": "",
+    "icon": "https://shargritton.github.io/media/website/dd_Fu-Ben.png",
     "author": {
         "name": "shar"
     },
@@ -14,7 +15,7 @@
             "url": "https://shargritton.github.io/wang-zhan-ce-shi.html",
             "title": "网站测试",
             "summary": "ref shar 这是一个测试链接",
-            "content_html": "\n    <figure class=\"blockquote\">\n      <blockquote>ref</blockquote>\n      <figcaption>shar</figcaption>\n    </figure>\n\n  <p>\n    这是一个测试链接\n  </p>\n\n    <figure class=\"post__image post__image--center\">\n      <img loading=\"lazy\" src=\"https://shargritton.github.io/media/posts/12/cxg.jpg\" height=\"640\" width=\"640\" alt=\"\"  sizes=\"(max-width: 1920px) 100vw, 1920px\" srcset=\"https://shargritton.github.io/media/posts/12/responsive/cxg-xs.jpg 640w ,https://shargritton.github.io/media/posts/12/responsive/cxg-sm.jpg 768w ,https://shargritton.github.io/media/posts/12/responsive/cxg-md.jpg 1024w ,https://shargritton.github.io/media/posts/12/responsive/cxg-lg.jpg 1366w ,https://shargritton.github.io/media/posts/12/responsive/cxg-xl.jpg 1600w ,https://shargritton.github.io/media/posts/12/responsive/cxg-2xl.jpg 1920w\">\n      \n    </figure>",
+            "content_html": "\n    <figure class=\"blockquote\">\n      <blockquote>ref</blockquote>\n      <figcaption>shar</figcaption>\n    </figure>\n\n  <p>\n    这是一个测试链接\n  </p>\n\n    <figure class=\"post__image post__image--center\">\n      <img loading=\"lazy\" src=\"https://shargritton.github.io/media/posts/12/cxg.jpg\" height=\"640\" width=\"640\" alt=\"\"  sizes=\"(max-width: 1024px) 100vw, 1024px\" srcset=\"https://shargritton.github.io/media/posts/12/responsive/cxg-xs.jpg 300w ,https://shargritton.github.io/media/posts/12/responsive/cxg-sm.jpg 480w ,https://shargritton.github.io/media/posts/12/responsive/cxg-md.jpg 768w ,https://shargritton.github.io/media/posts/12/responsive/cxg-lg.jpg 1024w\">\n      \n    </figure>",
             "author": {
                 "name": "shar"
             },
