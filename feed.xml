@@ -3,14 +3,85 @@
     <title>Shar Gameplay File</title>
     <link href="https://shargritton.github.io/feed.xml" rel="self" />
     <link href="https://shargritton.github.io" />
-    <updated>2026-07-04T02:28:31+08:00</updated>
+    <updated>2026-07-04T04:59:14+08:00</updated>
     <author>
         <name>shar</name>
     </author>
     <id>https://shargritton.github.io</id>
 
     <entry>
-        <title>Gameplay Cuse 效果创建</title>
+        <title>Gameplay Effect 属性影响</title>
+        <author>
+            <name>shar</name>
+        </author>
+        <link href="https://shargritton.github.io/wenzhang/gameplay-effect-shu-xing-ying-xiang/index.html"/>
+        <id>https://shargritton.github.io/wenzhang/gameplay-effect-shu-xing-ying-xiang/index.html</id>
+            <category term="Gameplay"/>
+
+        <updated>2026-07-04T03:53:07+08:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    1.Effect：创建 2.Effect参数：时间策略 实时 【即时触发一次】 无限 【无限触发直到移除】 持续时间 【持续触发：ex：持续时间10秒，每1秒触发1次】 3.Effect：Modidiers【修饰符】 以下通过加法算法加上一个负数来减少属性值
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <h5><span style="color: #169179;">1.Effect：创建</span></h5>
+<ul>
+<li><figure class="post__image"><img loading="lazy"  src="https://shargritton.github.io/media/posts/49/Screenshot-2026-07-04-024249.png" alt="" width="817" height="373" sizes="(max-width: 768px) 100vw, 768px" srcset="https://shargritton.github.io/media/posts/49/responsive/Screenshot-2026-07-04-024249-xs.png 300w ,https://shargritton.github.io/media/posts/49/responsive/Screenshot-2026-07-04-024249-sm.png 480w ,https://shargritton.github.io/media/posts/49/responsive/Screenshot-2026-07-04-024249-md.png 768w"></figure><hr></li>
+</ul>
+<h5><span style="color: #169179;">2.Effect参数：时间策略</span></h5>
+<ul>
+<li style="list-style-type: none;">
+<ul>
+<li><span style="color: #e67e23;">实时 【即时触发一次】</span></li>
+<li><span style="color: #e67e23;">无限 【无限触发直到移除】</span></li>
+<li><span style="color: #e67e23;">持续时间 【持续触发：ex：持续时间10秒，每1秒触发1次】</span>
+<ul>
+<li><figure class="post__image"><img loading="lazy"  src="https://shargritton.github.io/media/posts/49/Screenshot-2026-07-04-040038.png" alt="" width="936" height="363" sizes="(max-width: 768px) 100vw, 768px" srcset="https://shargritton.github.io/media/posts/49/responsive/Screenshot-2026-07-04-040038-xs.png 300w ,https://shargritton.github.io/media/posts/49/responsive/Screenshot-2026-07-04-040038-sm.png 480w ,https://shargritton.github.io/media/posts/49/responsive/Screenshot-2026-07-04-040038-md.png 768w"></figure></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li style="list-style-type: none;">
+<ul>
+<li style="list-style-type: none;">
+<ul>
+<li><figure class="post__image"><img loading="lazy"  src="https://shargritton.github.io/media/posts/49/Screenshot-2026-07-04-035637.png" alt="" width="1051" height="703" sizes="(max-width: 768px) 100vw, 768px" srcset="https://shargritton.github.io/media/posts/49/responsive/Screenshot-2026-07-04-035637-xs.png 300w ,https://shargritton.github.io/media/posts/49/responsive/Screenshot-2026-07-04-035637-sm.png 480w ,https://shargritton.github.io/media/posts/49/responsive/Screenshot-2026-07-04-035637-md.png 768w"></figure><hr></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h5><span style="color: #169179;">3.Effect：Modidiers【修饰符】</span></h5>
+<p><span style="color: #e67e23;">以下通过加法算法加上一个负数来减少属性值</span></p>
+<figure class="post__image"><img loading="lazy"  src="https://shargritton.github.io/media/posts/49/Screenshot-2026-07-04-041044.png" alt="" width="1285" height="1078" sizes="(max-width: 768px) 100vw, 768px" srcset="https://shargritton.github.io/media/posts/49/responsive/Screenshot-2026-07-04-041044-xs.png 300w ,https://shargritton.github.io/media/posts/49/responsive/Screenshot-2026-07-04-041044-sm.png 480w ,https://shargritton.github.io/media/posts/49/responsive/Screenshot-2026-07-04-041044-md.png 768w"></figure>
+<hr>
+<p> </p>
+<h5><span style="color: #169179;">4.Effect：激活方法与commit节点</span></h5>
+<ul>
+<li><span style="color: #e67e23;">开销槽插入已有的计算方式</span>
+<ul>
+<li><figure class="post__image"><img loading="lazy"  src="https://shargritton.github.io/media/posts/49/Screenshot-2026-07-04-044036.png" alt="" width="651" height="274" sizes="(max-width: 768px) 100vw, 768px" srcset="https://shargritton.github.io/media/posts/49/responsive/Screenshot-2026-07-04-044036-xs.png 300w ,https://shargritton.github.io/media/posts/49/responsive/Screenshot-2026-07-04-044036-sm.png 480w ,https://shargritton.github.io/media/posts/49/responsive/Screenshot-2026-07-04-044036-md.png 768w"></figure></li>
+</ul>
+</li>
+<li><span style="color: #e67e23;">光有开销槽也不行，必须加上【cost成本】和【cooldown冷却】才能正确计算</span>
+<ul>
+<li><figure class="post__image"><img loading="lazy"  src="https://shargritton.github.io/media/posts/49/Screenshot-2026-07-04-044910.png" alt="" width="433" height="298" sizes="(max-width: 768px) 100vw, 768px" srcset="https://shargritton.github.io/media/posts/49/responsive/Screenshot-2026-07-04-044910-xs.png 300w ,https://shargritton.github.io/media/posts/49/responsive/Screenshot-2026-07-04-044910-sm.png 480w ,https://shargritton.github.io/media/posts/49/responsive/Screenshot-2026-07-04-044910-md.png 768w"></figure></li>
+<li><figure class="post__image"><img loading="lazy"  src="https://shargritton.github.io/media/posts/49/Screenshot-2026-07-04-045046.png" alt="" width="433" height="340" sizes="(max-width: 768px) 100vw, 768px" srcset="https://shargritton.github.io/media/posts/49/responsive/Screenshot-2026-07-04-045046-xs.png 300w ,https://shargritton.github.io/media/posts/49/responsive/Screenshot-2026-07-04-045046-sm.png 480w ,https://shargritton.github.io/media/posts/49/responsive/Screenshot-2026-07-04-045046-md.png 768w"></figure></li>
+<li><figure class="post__image"><img loading="lazy"  src="https://shargritton.github.io/media/posts/49/Screenshot-2026-07-04-045602.png" alt="" width="2398" height="1044" sizes="(max-width: 768px) 100vw, 768px" srcset="https://shargritton.github.io/media/posts/49/responsive/Screenshot-2026-07-04-045602-xs.png 300w ,https://shargritton.github.io/media/posts/49/responsive/Screenshot-2026-07-04-045602-sm.png 480w ,https://shargritton.github.io/media/posts/49/responsive/Screenshot-2026-07-04-045602-md.png 768w"></figure></li>
+</ul>
+</li>
+</ul>
+<h5><span style="color: #169179;">5.Cooldown【冷却效果设置】</span></h5>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Gameplay Cue 效果创建</title>
         <author>
             <name>shar</name>
         </author>
@@ -21,7 +92,7 @@
         <updated>2026-07-04T00:18:48+08:00</updated>
             <summary type="html">
                 <![CDATA[
-                    <h5><span style="color: #169179;">1.Gameplay cuse蓝图创建</span></h5>
+                    <h5><span style="color: #169179;">1.cue：创建</span></h5>
 <ul>
 <li><span style="color: #e67e23;">actor类别【使用后生成新物体与持续的效果】</span>
 <ul>
@@ -47,7 +118,7 @@
             </summary>
         <content type="html">
             <![CDATA[
-                <h5><span style="color: #169179;">1.Gameplay cuse蓝图创建</span></h5>
+                <h5><span style="color: #169179;">1.cue：创建</span></h5>
 <ul>
 <li><span style="color: #e67e23;">actor类别【使用后生成新物体与持续的效果】</span>
 <ul>
@@ -70,12 +141,12 @@
 </li>
 <li><figure class="post__image"><img loading="lazy"  src="https://shargritton.github.io/media/posts/45/Screenshot-2026-07-04-002610.jpeg" alt="" width="571" height="69" sizes="(max-width: 768px) 100vw, 768px" srcset="https://shargritton.github.io/media/posts/45/responsive/Screenshot-2026-07-04-002610-xs.jpeg 300w ,https://shargritton.github.io/media/posts/45/responsive/Screenshot-2026-07-04-002610-sm.jpeg 480w ,https://shargritton.github.io/media/posts/45/responsive/Screenshot-2026-07-04-002610-md.jpeg 768w"></figure><hr></li>
 </ul>
-<h5><span style="color: #169179;">2.创建cue标签</span></h5>
+<h5><span style="color: #169179;">2.cue：创建标签</span></h5>
 <ul>
 <li><figure class="post__image"><img loading="lazy"  src="https://shargritton.github.io/media/posts/45/Screenshot-2026-07-04-003654.png" alt="" width="900" height="408" sizes="(max-width: 768px) 100vw, 768px" srcset="https://shargritton.github.io/media/posts/45/responsive/Screenshot-2026-07-04-003654-xs.png 300w ,https://shargritton.github.io/media/posts/45/responsive/Screenshot-2026-07-04-003654-sm.png 480w ,https://shargritton.github.io/media/posts/45/responsive/Screenshot-2026-07-04-003654-md.png 768w"></figure></li>
 </ul>
 <hr>
-<h5><span style="color: #169179;">3.分支执行节点：swich on egameplaycue event【不同状态下运行cue】</span></h5>
+<h5><span style="color: #169179;">3.</span><span style="color: #169179;">cue：</span><span style="color: #169179;">分支执行节点：swich on egameplaycue event【不同状态下运行cue】</span></h5>
 <ul>
 <li><span style="color: #b96ad9;">on active【激活】</span></li>
 <li><span style="color: #b96ad9;">while active【运行中】</span></li>
@@ -83,7 +154,7 @@
 <li><span style="color: #b96ad9;">removed 【已移除】</span></li>
 <li><figure class="post__image"><img loading="lazy"  src="https://shargritton.github.io/media/posts/45/Screenshot-2026-07-04-004055.png" alt="" width="418" height="295" sizes="(max-width: 768px) 100vw, 768px" srcset="https://shargritton.github.io/media/posts/45/responsive/Screenshot-2026-07-04-004055-xs.png 300w ,https://shargritton.github.io/media/posts/45/responsive/Screenshot-2026-07-04-004055-sm.png 480w ,https://shargritton.github.io/media/posts/45/responsive/Screenshot-2026-07-04-004055-md.png 768w"></figure><br><br></li>
 </ul>
-<h5><span style="color: #169179;">4.激活cue的方式</span></h5>
+<h5><span style="color: #169179;">4.cue：激活方式</span></h5>
 <ul>
 <li><span style="color: #e67e23;">add gameplaycue to owner</span>
 <ul>
@@ -118,8 +189,7 @@
 </ul>
 <p> </p>
 <hr>
-<p> </p>
-<h5><span style="color: #169179;">5.不同的效果创建节点</span></h5>
+<h5><span style="color: #169179;">5.</span><span style="color: #169179;">cue：</span><span style="color: #169179;">不同效果的创建</span></h5>
 <ul>
 <li><span style="color: #e67e23;">spawn system attached 【粒子效果生成】</span></li>
 <li><span style="color: #e67e23;">play sound at location 【再位置处播放声音】</span></li>
@@ -147,41 +217,42 @@
         <updated>2026-07-03T22:43:27+08:00</updated>
             <summary type="html">
                 <![CDATA[
-                    <h5><span style="color: #169179;">1.创建 Ability 蓝图</span></h5>
+                    <h5><span style="color: #169179;">1.a</span><span style="color: #169179;">bility </span><span style="color: #169179;">创建蓝图</span></h5>
 <p> </p>
 <ul>
-<li><figure class="post__image"><img loading="lazy"  src="https://shargritton.github.io/media/posts/44/Screenshot-2026-07-03-230524.png" alt="" width="907" height="1033" sizes="(max-width: 768px) 100vw, 768px" srcset="https://shargritton.github.io/media/posts/44/responsive/Screenshot-2026-07-03-230524-xs.png 300w ,https://shargritton.github.io/media/posts/44/responsive/Screenshot-2026-07-03-230524-sm.png 480w ,https://shargritton.github.io/media/posts/44/responsive/Screenshot-2026-07-03-230524-md.png 768w"></figure><hr>
+<li><span style="color: #169179;"><figure class="post__image"><img loading="lazy"  src="https://shargritton.github.io/media/posts/44/Screenshot-2026-07-03-230524.png" alt="" width="907" height="1033" sizes="(max-width: 768px) 100vw, 768px" srcset="https://shargritton.github.io/media/posts/44/responsive/Screenshot-2026-07-03-230524-xs.png 300w ,https://shargritton.github.io/media/posts/44/responsive/Screenshot-2026-07-03-230524-sm.png 480w ,https://shargritton.github.io/media/posts/44/responsive/Screenshot-2026-07-03-230524-md.png 768w"></figure></span><hr>
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <h5><span style="color: #169179;">1.创建 Ability 蓝图</span></h5>
+                <h5><span style="color: #169179;">1.a</span><span style="color: #169179;">bility </span><span style="color: #169179;">创建蓝图</span></h5>
 <p> </p>
 <ul>
-<li><figure class="post__image"><img loading="lazy"  src="https://shargritton.github.io/media/posts/44/Screenshot-2026-07-03-230524.png" alt="" width="907" height="1033" sizes="(max-width: 768px) 100vw, 768px" srcset="https://shargritton.github.io/media/posts/44/responsive/Screenshot-2026-07-03-230524-xs.png 300w ,https://shargritton.github.io/media/posts/44/responsive/Screenshot-2026-07-03-230524-sm.png 480w ,https://shargritton.github.io/media/posts/44/responsive/Screenshot-2026-07-03-230524-md.png 768w"></figure><hr></li>
+<li><span style="color: #169179;"><figure class="post__image"><img loading="lazy"  src="https://shargritton.github.io/media/posts/44/Screenshot-2026-07-03-230524.png" alt="" width="907" height="1033" sizes="(max-width: 768px) 100vw, 768px" srcset="https://shargritton.github.io/media/posts/44/responsive/Screenshot-2026-07-03-230524-xs.png 300w ,https://shargritton.github.io/media/posts/44/responsive/Screenshot-2026-07-03-230524-sm.png 480w ,https://shargritton.github.io/media/posts/44/responsive/Screenshot-2026-07-03-230524-md.png 768w"></figure></span><hr></li>
 </ul>
-<h5><span style="color: #169179;">2.角色获取技能【give ability】</span></h5>
+<h5><span style="color: #169179;">2.a</span><span style="color: #169179;">bility：</span><span style="color: #169179;">角色获取技能【give ability】</span></h5>
 <ul>
-<li><figure class="post__image"><img loading="lazy"  src="https://shargritton.github.io/media/posts/44/Screenshot-2026-07-03-230752.png" alt="" width="949" height="816" sizes="(max-width: 768px) 100vw, 768px" srcset="https://shargritton.github.io/media/posts/44/responsive/Screenshot-2026-07-03-230752-xs.png 300w ,https://shargritton.github.io/media/posts/44/responsive/Screenshot-2026-07-03-230752-sm.png 480w ,https://shargritton.github.io/media/posts/44/responsive/Screenshot-2026-07-03-230752-md.png 768w"></figure><hr></li>
+<li><span style="color: #169179;"><figure class="post__image"><img loading="lazy"  src="https://shargritton.github.io/media/posts/44/Screenshot-2026-07-03-230752.png" alt="" width="949" height="816" sizes="(max-width: 768px) 100vw, 768px" srcset="https://shargritton.github.io/media/posts/44/responsive/Screenshot-2026-07-03-230752-xs.png 300w ,https://shargritton.github.io/media/posts/44/responsive/Screenshot-2026-07-03-230752-sm.png 480w ,https://shargritton.github.io/media/posts/44/responsive/Screenshot-2026-07-03-230752-md.png 768w"></figure></span><hr></li>
 </ul>
-<h5><span style="color: #169179;">3.技能触发 【try activate ability by class】【按照类型触发】</span></h5>
+<h5><span style="color: #169179;">3.ability技能触发 【try activate ability by class】【按照类型触发】</span></h5>
 <ul>
-<li><figure class="post__image"><img loading="lazy"  src="https://shargritton.github.io/media/posts/44/Screenshot-2026-07-03-231116.png" alt="" width="1000" height="484" sizes="(max-width: 768px) 100vw, 768px" srcset="https://shargritton.github.io/media/posts/44/responsive/Screenshot-2026-07-03-231116-xs.png 300w ,https://shargritton.github.io/media/posts/44/responsive/Screenshot-2026-07-03-231116-sm.png 480w ,https://shargritton.github.io/media/posts/44/responsive/Screenshot-2026-07-03-231116-md.png 768w"></figure><hr></li>
+<li><span style="color: #169179;"><figure class="post__image"><img loading="lazy"  src="https://shargritton.github.io/media/posts/44/Screenshot-2026-07-03-231116.png" alt="" width="1000" height="484" sizes="(max-width: 768px) 100vw, 768px" srcset="https://shargritton.github.io/media/posts/44/responsive/Screenshot-2026-07-03-231116-xs.png 300w ,https://shargritton.github.io/media/posts/44/responsive/Screenshot-2026-07-03-231116-sm.png 480w ,https://shargritton.github.io/media/posts/44/responsive/Screenshot-2026-07-03-231116-md.png 768w"></figure></span><hr></li>
 </ul>
-<h5><span style="color: #169179;">4.TAG【标签创建】</span></h5>
+<h5><span style="color: #169179;">4.ability tag【标签创建】</span></h5>
 <ul>
-<li><span style="color: #ffffff;">【X.Y.Z】中间的点表示不同的文件夹层级</span>
+<li><span style="color: #169179;">【X.Y.Z】中间的点表示不同的文件夹层级</span>
 <ul>
-<li><figure class="post__image"><img loading="lazy"  src="https://shargritton.github.io/media/posts/44/Screenshot-2026-07-03-232828.png" alt="" width="693" height="255" sizes="(max-width: 768px) 100vw, 768px" srcset="https://shargritton.github.io/media/posts/44/responsive/Screenshot-2026-07-03-232828-xs.png 300w ,https://shargritton.github.io/media/posts/44/responsive/Screenshot-2026-07-03-232828-sm.png 480w ,https://shargritton.github.io/media/posts/44/responsive/Screenshot-2026-07-03-232828-md.png 768w"></figure></li>
-<li><figure class="post__image"><img loading="lazy"  src="https://shargritton.github.io/media/posts/44/Screenshot-2026-07-03-232721.png" alt="" width="871" height="921" sizes="(max-width: 768px) 100vw, 768px" srcset="https://shargritton.github.io/media/posts/44/responsive/Screenshot-2026-07-03-232721-xs.png 300w ,https://shargritton.github.io/media/posts/44/responsive/Screenshot-2026-07-03-232721-sm.png 480w ,https://shargritton.github.io/media/posts/44/responsive/Screenshot-2026-07-03-232721-md.png 768w"></figure><hr></li>
+<li><span style="color: #169179;"><figure class="post__image"><img loading="lazy"  src="https://shargritton.github.io/media/posts/44/Screenshot-2026-07-03-232828.png" alt="" width="693" height="255" sizes="(max-width: 768px) 100vw, 768px" srcset="https://shargritton.github.io/media/posts/44/responsive/Screenshot-2026-07-03-232828-xs.png 300w ,https://shargritton.github.io/media/posts/44/responsive/Screenshot-2026-07-03-232828-sm.png 480w ,https://shargritton.github.io/media/posts/44/responsive/Screenshot-2026-07-03-232828-md.png 768w"></figure></span></li>
+<li> </li>
+<li><span style="color: #169179;"><figure class="post__image"><img loading="lazy"  src="https://shargritton.github.io/media/posts/44/Screenshot-2026-07-03-232721.png" alt="" width="871" height="921" sizes="(max-width: 768px) 100vw, 768px" srcset="https://shargritton.github.io/media/posts/44/responsive/Screenshot-2026-07-03-232721-xs.png 300w ,https://shargritton.github.io/media/posts/44/responsive/Screenshot-2026-07-03-232721-sm.png 480w ,https://shargritton.github.io/media/posts/44/responsive/Screenshot-2026-07-03-232721-md.png 768w"></figure></span><hr></li>
 </ul>
 </li>
 </ul>
-<h5><span style="color: #169179;">5.标签激活</span></h5>
+<h5><span style="color: #169179;">5.ability：【标签激活】</span></h5>
 <ul>
 <li><figure class="post__image"><img loading="lazy"  src="https://shargritton.github.io/media/posts/44/Screenshot-2026-07-03-233647.png" alt="" width="1068" height="1411" sizes="(max-width: 768px) 100vw, 768px" srcset="https://shargritton.github.io/media/posts/44/responsive/Screenshot-2026-07-03-233647-xs.png 300w ,https://shargritton.github.io/media/posts/44/responsive/Screenshot-2026-07-03-233647-sm.png 480w ,https://shargritton.github.io/media/posts/44/responsive/Screenshot-2026-07-03-233647-md.png 768w"></figure></li>
 </ul>
-<h5><span style="color: #169179;">6.是否创建实例</span></h5>
+<h5><span style="color: #169179;">6.ability：是否创建实例</span></h5>
 <ul>
 <li><span style="color: #3598db;">非实例化</span>
 <ul>
@@ -211,7 +282,7 @@
 </li>
 </ul>
 <p> </p>
-<h5><span style="color: #169179;">7.内部功能构建【范例：冲刺】</span></h5>
+<h5><span style="color: #169179;">7.ability：内部功能构建【范例：冲刺】</span></h5>
 <ul>
 <li><span style="color: #e67e23;">Task节点【根运动组件节点】</span>
 <ul>
@@ -251,7 +322,7 @@
         <updated>2026-07-03T22:37:52+08:00</updated>
             <summary type="html">
                 <![CDATA[
-                    <h5><span style="color: #169179;">方法1：按键 · 打开</span></h5>
+                    <h5><span style="color: #169179;">方法A：按键 · 打开</span></h5>
 <ul>
 <li>测试debug</li>
 <li>AbilitySystem.DebugAttribute   属性名称
@@ -261,7 +332,7 @@
 </li>
 </ul>
 <hr>
-<h5><span style="color: #169179;">方法2：按键 ’ 打开</span></h5>
+<h5><span style="color: #169179;">方法B：按键 ’ 打开</span></h5>
 <ul>
 <li>小键盘按键打开相关的测试
 <ul>
@@ -274,7 +345,7 @@
             </summary>
         <content type="html">
             <![CDATA[
-                <h5><span style="color: #169179;">方法1：按键 · 打开</span></h5>
+                <h5><span style="color: #169179;">方法A：按键 · 打开</span></h5>
 <ul>
 <li>测试debug</li>
 <li>AbilitySystem.DebugAttribute   属性名称
@@ -284,7 +355,7 @@
 </li>
 </ul>
 <hr>
-<h5><span style="color: #169179;">方法2：按键 ’ 打开</span></h5>
+<h5><span style="color: #169179;">方法B：按键 ’ 打开</span></h5>
 <ul>
 <li>小键盘按键打开相关的测试
 <ul>
@@ -293,7 +364,7 @@
 </li>
 </ul>
 <hr>
-<h5><span style="color: #169179;">方法3：慢动作观察调试</span></h5>
+<h5><span style="color: #169179;">方法C：慢动作观察调试</span></h5>
 <ul>
 <li>用于慢动作观察效果
 <ul>
@@ -425,18 +496,6 @@ End Object
         <id>https://shargritton.github.io/wenzhang/gameplay-zhan-dou-shu-xing/index.html</id>
 
         <updated>2026-07-03T19:31:48+08:00</updated>
-            <summary></summary>
-        <content></content>
-    </entry>
-    <entry>
-        <title>Gameplay 伤害计算</title>
-        <author>
-            <name>shar</name>
-        </author>
-        <link href="https://shargritton.github.io/wenzhang/gameplay-shang-hai-ji-suan/index.html"/>
-        <id>https://shargritton.github.io/wenzhang/gameplay-shang-hai-ji-suan/index.html</id>
-
-        <updated>2026-07-03T19:31:29+08:00</updated>
             <summary></summary>
         <content></content>
     </entry>
