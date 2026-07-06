@@ -3,7 +3,7 @@
     <title>Shar Gameplay File</title>
     <link href="https://shargritton.github.io/feed.xml" rel="self" />
     <link href="https://shargritton.github.io" />
-    <updated>2026-07-05T23:26:04+08:00</updated>
+    <updated>2026-07-06T20:28:53+08:00</updated>
     <author>
         <name>shar</name>
     </author>
@@ -529,8 +529,66 @@ End Object
             <category term="Gameplay"/>
 
         <updated>2026-07-03T19:26:34+08:00</updated>
-            <summary></summary>
-        <content></content>
+            <summary type="html">
+                <![CDATA[
+                    1【基础伤害类的互动Actor】 1-1.创建数值效果effects【由调试者设置参数】 使用有调试者设置参数后可以在actor中随时变更相关的参数设置。 设置计算延迟【对应用执行周期影响】取消不会立马触发，会等待1秒延迟。 1-2.创建actor后编写共用算法 创建完成后把标签与参数设置成为参数方便更改 关于参数的更改方式 1-3.将cue集成到effects中 effcts中有关于cue的属性设置可以简单的使用 设置cue为静态的预设加强版 设置想要的cue之后添加cue专属tag让effects识别 2【拾取互动类的actor】
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <h4>1【基础伤害类的互动Actor】</h4>
+<h5><span style="color: #169179;">1-1.创建数值效果effects【由调试者设置参数】</span></h5>
+<ul>
+<li><span style="color: #e67e23;">使用有调试者设置参数后可以在actor中随时变更相关的参数设置。</span></li>
+</ul>
+<figure class="post__image"><img loading="lazy"  src="https://shargritton.github.io/media/posts/22/Screenshot-2026-07-06-194423-2.png" alt="" width="1641" height="1588" sizes="(max-width: 768px) 100vw, 768px" srcset="https://shargritton.github.io/media/posts/22/responsive/Screenshot-2026-07-06-194423-2-xs.png 300w ,https://shargritton.github.io/media/posts/22/responsive/Screenshot-2026-07-06-194423-2-sm.png 480w ,https://shargritton.github.io/media/posts/22/responsive/Screenshot-2026-07-06-194423-2-md.png 768w"></figure>
+<ul>
+<li><span style="color: #e67e23;">设置计算延迟【对应用执行周期影响】取消不会立马触发，会等待1秒延迟。</span></li>
+</ul>
+<figure class="post__image"><img loading="lazy"  src="https://shargritton.github.io/media/posts/22/Screenshot-2026-07-06-195753.png" alt="" width="1033" height="256" sizes="(max-width: 768px) 100vw, 768px" srcset="https://shargritton.github.io/media/posts/22/responsive/Screenshot-2026-07-06-195753-xs.png 300w ,https://shargritton.github.io/media/posts/22/responsive/Screenshot-2026-07-06-195753-sm.png 480w ,https://shargritton.github.io/media/posts/22/responsive/Screenshot-2026-07-06-195753-md.png 768w"></figure>
+<h5><span style="color: #169179;">1-2.创建actor后编写共用算法</span></h5>
+<ul>
+<li><span style="color: #e67e23;">创建完成后把标签与参数设置成为参数方便更改</span>
+<ul>
+<li><figure class="post__image"><img loading="lazy"  src="https://shargritton.github.io/media/posts/22/Screenshot-2026-07-06-195010.png" alt="" width="3000" height="1810" sizes="(max-width: 768px) 100vw, 768px" srcset="https://shargritton.github.io/media/posts/22/responsive/Screenshot-2026-07-06-195010-xs.png 300w ,https://shargritton.github.io/media/posts/22/responsive/Screenshot-2026-07-06-195010-sm.png 480w ,https://shargritton.github.io/media/posts/22/responsive/Screenshot-2026-07-06-195010-md.png 768w"></figure><br><br></li>
+</ul>
+</li>
+<li><span style="color: #e67e23;">关于参数的更改方式</span>
+<ul>
+<li><figure class="post__image"><img loading="lazy"  src="https://shargritton.github.io/media/posts/22/Screenshot-2026-07-06-195244.png" alt="" width="655" height="625" sizes="(max-width: 768px) 100vw, 768px" srcset="https://shargritton.github.io/media/posts/22/responsive/Screenshot-2026-07-06-195244-xs.png 300w ,https://shargritton.github.io/media/posts/22/responsive/Screenshot-2026-07-06-195244-sm.png 480w ,https://shargritton.github.io/media/posts/22/responsive/Screenshot-2026-07-06-195244-md.png 768w"></figure></li>
+</ul>
+</li>
+</ul>
+<p> </p>
+<ul>
+<li><span style="color: #e67e23;">公开参数</span>
+<ul>
+<li><figure class="post__image"><img loading="lazy"  src="https://shargritton.github.io/media/posts/22/Screenshot-2026-07-06-195430.png" alt="" width="898" height="127" sizes="(max-width: 768px) 100vw, 768px" srcset="https://shargritton.github.io/media/posts/22/responsive/Screenshot-2026-07-06-195430-xs.png 300w ,https://shargritton.github.io/media/posts/22/responsive/Screenshot-2026-07-06-195430-sm.png 480w ,https://shargritton.github.io/media/posts/22/responsive/Screenshot-2026-07-06-195430-md.png 768w"></figure></li>
+</ul>
+</li>
+</ul>
+<p> </p>
+<h5><span style="color: #169179;">1-3.将cue集成到effects中</span></h5>
+<ul>
+<li><span style="color: #e67e23;">effcts中有关于cue的属性设置可以简单的使用</span>
+<ul>
+<li><figure class="post__image"><img loading="lazy"  src="https://shargritton.github.io/media/posts/22/Screenshot-2026-07-06-200523.png" alt="" width="1029" height="628" sizes="(max-width: 768px) 100vw, 768px" srcset="https://shargritton.github.io/media/posts/22/responsive/Screenshot-2026-07-06-200523-xs.png 300w ,https://shargritton.github.io/media/posts/22/responsive/Screenshot-2026-07-06-200523-sm.png 480w ,https://shargritton.github.io/media/posts/22/responsive/Screenshot-2026-07-06-200523-md.png 768w"></figure></li>
+</ul>
+</li>
+<li><span style="color: #e67e23;">设置cue为静态的预设加强版</span>
+<ul>
+<li><figure class="post__image"><img loading="lazy"  src="https://shargritton.github.io/media/posts/22/Screenshot-2026-07-06-200709.png" alt="" width="907" height="540" sizes="(max-width: 768px) 100vw, 768px" srcset="https://shargritton.github.io/media/posts/22/responsive/Screenshot-2026-07-06-200709-xs.png 300w ,https://shargritton.github.io/media/posts/22/responsive/Screenshot-2026-07-06-200709-sm.png 480w ,https://shargritton.github.io/media/posts/22/responsive/Screenshot-2026-07-06-200709-md.png 768w"></figure></li>
+</ul>
+</li>
+<li><span style="color: #e67e23;">设置想要的cue之后添加cue专属tag让effects识别</span>
+<ul>
+<li><figure class="post__image"><img loading="lazy"  src="https://shargritton.github.io/media/posts/22/Screenshot-2026-07-06-200834.png" alt="" width="1314" height="1434" sizes="(max-width: 768px) 100vw, 768px" srcset="https://shargritton.github.io/media/posts/22/responsive/Screenshot-2026-07-06-200834-xs.png 300w ,https://shargritton.github.io/media/posts/22/responsive/Screenshot-2026-07-06-200834-sm.png 480w ,https://shargritton.github.io/media/posts/22/responsive/Screenshot-2026-07-06-200834-md.png 768w"></figure></li>
+</ul>
+</li>
+</ul>
+<h4>2【拾取互动类的actor】</h4>
+            ]]>
+        </content>
     </entry>
     <entry>
         <title>Gameplay UI与widget模块化通讯</title>
@@ -878,9 +936,12 @@ public:
 <hr>
 <h5><span style="color: #169179;">4.Attributes【设置cpp文件】</span></h5>
 <pre class="language-cpp"><code>// Fill out your copyright notice in the Description page of Project Settings.
-
+//添加到角色中
+//.H中定义名称
+//.cpp中调用
 
 #include "AttributeSet_basic.h"
+#include "GameplayEffectExtension.h"
 #include "net/UnrealNetwork.h"
 
 //设定函数里面的初始值，函数名字
@@ -896,7 +957,211 @@ UAttributeSet_basic::UAttributeSet_basic()
 //获得永久性复制的函数
 void UAttributeSet_basic::GetLifetimeReplicatedProps(TArray&lt;FLifetimeProperty&gt;&amp; OutLifetimeProps) const
 {
-	//调用父项
+	//调用父项给个名字
+	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
+	
+	//设定重复复制的条件为COND_None，意味着其他角色可以重复复制
+	DOREPLIFETIME_CONDITION_NOTIFY(UAttributeSet_basic, Health, COND_None, REPNOTIFY_Always);
+	DOREPLIFETIME_CONDITION_NOTIFY(UAttributeSet_basic, MaxHealth, COND_None, REPNOTIFY_Always);
+	DOREPLIFETIME_CONDITION_NOTIFY(UAttributeSet_basic, Stamina, COND_None, REPNOTIFY_Always);
+	DOREPLIFETIME_CONDITION_NOTIFY(UAttributeSet_basic, MaxStamina, COND_None, REPNOTIFY_Always);
+}</code></pre>
+<hr>
+<h5><span style="color: #169179;">5.Attributes【测试调用是否成功】</span></h5>
+<ul>
+<li><figure class="post__image"><img loading="lazy"  src="https://shargritton.github.io/media/posts/19/Screenshot-2026-07-03-222700.png" alt="" width="918" height="430" sizes="(max-width: 768px) 100vw, 768px" srcset="https://shargritton.github.io/media/posts/19/responsive/Screenshot-2026-07-03-222700-xs.png 300w ,https://shargritton.github.io/media/posts/19/responsive/Screenshot-2026-07-03-222700-sm.png 480w ,https://shargritton.github.io/media/posts/19/responsive/Screenshot-2026-07-03-222700-md.png 768w"></figure></li>
+</ul>
+<hr>
+<h5><span style="color: #169179;">6.Attributes 【参数的钳制】【上限与下限】【clamp】</span></h5>
+<ul>
+<li><span style="color: #e67e23;">只能通过C++来设定</span></li>
+</ul>
+<p> </p>
+<ul>
+<li><span style="color: #e67e23;">设置头文件</span></li>
+</ul>
+<pre class="language-cpp"><code>//Clamp相关
+	//属性上限下限限制相关clamp
+	virtual void PreAttributeChange(const FGameplayAttribute&amp; Attribute, float&amp; NewValue) override;
+	//游戏后效果处理:游戏效果应用完成后被调用的函数 设置游戏的参数正确
+	void PostGameplayEffectExecute(const FGameplayEffectModCallbackData&amp; Data);</code></pre>
+<ul>
+<li><span style="color: #e67e23;">设置参数钳制【从指针中获取并钳制】</span></li>
+</ul>
+<pre class="language-cpp"><code>//clamp相关
+//限制参数的上下限制，防止参数无限制的加减
+void UAttributeSet_basic::PreAttributeChange(const FGameplayAttribute&amp; Attribute, float&amp; NewValue)
+{
+	
+	//调用父级函数，返回指针
+	Super::PreAttributeChange(Attribute, NewValue);
+	
+	//if限制
+	if (Attribute == GetHealthAttribute())
+	{
+		//限制clamp生命值，下限0，上限maxhealth
+		NewValue = FMath::Clamp(NewValue, 0.f, GetMaxHealth());
+	}
+	else if (Attribute == GetStaminaAttribute())
+	{
+		//限制clamp体力值，下限0，上限maxstamina
+		NewValue = FMath::Clamp(NewValue, 0.f, GetMaxStamina());
+	}
+	else if (Attribute == GetMaxHealthAttribute())
+	{
+		//限制clamp生命值容器，下限0，上限10000
+		NewValue = FMath::Clamp(NewValue, 0.f, 10000.f);
+	}
+	else if (Attribute == GetMaxStaminaAttribute())
+	{
+		//限制clamp体力值容器，下限0，上限10000
+		NewValue = FMath::Clamp(NewValue, 0.f, 10000.f);
+	}	
+	
+}</code></pre>
+<ul>
+<li><span style="color: #e67e23;">获取指针中变换的数值并进行固定，方便钳制</span></li>
+</ul>
+<pre class="language-cpp"><code>void UAttributeSet_basic::PostGameplayEffectExecute(const FGameplayEffectModCallbackData&amp; Data)
+{
+	//取个名字叫data
+	Super::PostGameplayEffectExecute(Data);
+	//作用固定数值设置为当前值
+	//检查属性是什么属性，如果是的话就设置对应的属性填入返回数值，把数值固定在函数中，方便上方clamp调取，不用再fmate
+	if (Data.EvaluatedData.Attribute == GetHealthAttribute())
+	{
+		SetHealth(GetHealth());
+	}
+	else if (Data.EvaluatedData.Attribute == GetStaminaAttribute())
+	{
+		SetStamina(GetStamina());
+	}
+	else if (Data.EvaluatedData.Attribute == GetMaxHealthAttribute())
+	{
+		SetMaxHealth(GetMaxHealth());
+	}
+	else if (Data.EvaluatedData.Attribute == GetMaxStaminaAttribute())
+	{
+		SetMaxStamina(GetMaxStamina());
+	}
+}</code></pre>
+<p> </p>
+<h5><span style="color: #b96ad9;">#-完整代码</span></h5>
+<ul>
+<li><span style="color: #b96ad9;">h</span></li>
+</ul>
+<pre class="language-cpp"><code>// Fill out your copyright notice in the Description page of Project Settings.
+
+#pragma once
+
+#include "CoreMinimal.h"
+#include "AttributeSet.h"
+#include "AbilitySystemComponent.h"
+#include "AttributeSet_basic.generated.h"
+
+
+
+/**
+ * 
+ */
+
+UCLASS()
+class GAMEPLAY_GAS_API UAttributeSet_basic : public UAttributeSet
+{
+	GENERATED_BODY()
+
+public:
+	//把以下内容定义成为U构造函数方便cpp使用
+	UAttributeSet_basic();
+	
+	
+	//健康
+	//属性设置为蓝图只读，分配类别为Attributes 设置多人游戏的可复制 ReplicatedUsing
+	UPROPERTY(BlueprintReadOnly, Category = "Attributes",ReplicatedUsing=OnRep_Health)
+	FGameplayAttributeData Health;
+	//设置属性访问器：方便在蓝图中 set get 访问 
+	ATTRIBUTE_ACCESSORS_BASIC(UAttributeSet_basic, Health);
+	
+	//健康最大值【血条上限】
+	UPROPERTY(BlueprintReadOnly, Category = "Attributes",ReplicatedUsing=OnRep_MaxHealth)
+	FGameplayAttributeData MaxHealth;
+	ATTRIBUTE_ACCESSORS_BASIC(UAttributeSet_basic, MaxHealth);
+	
+	//耐力属性
+	UPROPERTY(BlueprintReadOnly, Category = "Attributes",ReplicatedUsing=OnRep_Stamina)
+	FGameplayAttributeData Stamina;
+	ATTRIBUTE_ACCESSORS_BASIC(UAttributeSet_basic, Stamina);
+	
+	//耐力最大值【耐力上限】
+	UPROPERTY(BlueprintReadOnly, Category = "Attributes",ReplicatedUsing=OnRep_MaxStamina)
+	FGameplayAttributeData MaxStamina;	
+	ATTRIBUTE_ACCESSORS_BASIC(UAttributeSet_basic, MaxStamina);
+	
+public:
+	//定义一下上面的 OnRep_类别
+	UFUNCTION()
+	//定义函数输入的是健康状态的老值
+	void OnRep_Health(const FGameplayAttributeData&amp; OLDValue) const
+	{
+		//设置游戏玩法属性通知宏，利用函数处理多角色的复制操作
+		GAMEPLAYATTRIBUTE_REPNOTIFY(UAttributeSet_basic, Health, OLDValue);
+	}
+
+	UFUNCTION()
+	void OnRep_MaxHealth(const FGameplayAttributeData&amp; OLDValue) const
+	{
+		GAMEPLAYATTRIBUTE_REPNOTIFY(UAttributeSet_basic, MaxHealth, OLDValue);
+	}
+	
+	UFUNCTION()
+	void OnRep_Stamina(const FGameplayAttributeData&amp; OLDValue) const
+	{
+		GAMEPLAYATTRIBUTE_REPNOTIFY(UAttributeSet_basic, Stamina, OLDValue);
+	}
+	
+	UFUNCTION()
+	void OnRep_MaxStamina(const FGameplayAttributeData&amp; OLDValue) const
+	{
+		GAMEPLAYATTRIBUTE_REPNOTIFY(UAttributeSet_basic, MaxStamina, OLDValue);
+	}
+	
+	//获取生命周期复现的状态：决定我们该任何复制操作，如何复制生命体状态。
+	virtual void GetLifetimeReplicatedProps(TArray&lt;class FLifetimeProperty&gt;&amp; OutLifetimeProps) const override;
+	
+	//Clamp相关
+	//属性上限下限限制相关clamp
+	virtual void PreAttributeChange(const FGameplayAttribute&amp; Attribute, float&amp; NewValue) override;
+	//游戏后效果处理:游戏效果应用完成后被调用的函数 设置游戏的参数正确
+	void PostGameplayEffectExecute(const FGameplayEffectModCallbackData&amp; Data);
+	
+};
+</code></pre>
+<ul>
+<li><span style="color: #b96ad9;">cpp</span></li>
+</ul>
+<pre class="language-cpp"><code>// Fill out your copyright notice in the Description page of Project Settings.
+//添加到角色中
+//.H中定义名称
+//.cpp中调用
+
+#include "AttributeSet_basic.h"
+#include "GameplayEffectExtension.h"
+#include "net/UnrealNetwork.h"
+
+//设定函数里面的初始值，函数名字
+UAttributeSet_basic::UAttributeSet_basic()
+{
+	Health = 100.f;
+	MaxHealth = 100.f;
+	Stamina = 100.f;
+	MaxStamina = 100.f;
+}
+
+//设定调用时候有两个引脚
+//获得永久性复制的函数
+void UAttributeSet_basic::GetLifetimeReplicatedProps(TArray&lt;FLifetimeProperty&gt;&amp; OutLifetimeProps) const
+{
+	//调用父项给个名字
 	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
 	
 	//设定重复复制的条件为COND_None，意味着其他角色可以重复复制
@@ -906,16 +1171,67 @@ void UAttributeSet_basic::GetLifetimeReplicatedProps(TArray&lt;FLifetimeProperty
 	DOREPLIFETIME_CONDITION_NOTIFY(UAttributeSet_basic, MaxStamina, COND_None, REPNOTIFY_Always);
 }
 
-//添加到角色中
-//.H中定义名称
-//.cpp中调用</code></pre>
-<hr>
-<h5><span style="color: #169179;">5.Attributes【测试调用是否成功】</span></h5>
-<ul>
-<li><figure class="post__image"><img loading="lazy"  src="https://shargritton.github.io/media/posts/19/Screenshot-2026-07-03-222700.png" alt="" width="918" height="430" sizes="(max-width: 768px) 100vw, 768px" srcset="https://shargritton.github.io/media/posts/19/responsive/Screenshot-2026-07-03-222700-xs.png 300w ,https://shargritton.github.io/media/posts/19/responsive/Screenshot-2026-07-03-222700-sm.png 480w ,https://shargritton.github.io/media/posts/19/responsive/Screenshot-2026-07-03-222700-md.png 768w"></figure></li>
-</ul>
-<hr>
-<p> </p>
+
+//clamp相关
+//限制参数的上下限制，防止参数无限制的加减
+void UAttributeSet_basic::PreAttributeChange(const FGameplayAttribute&amp; Attribute, float&amp; NewValue)
+{
+	
+	//调用父级函数，返回指针
+	Super::PreAttributeChange(Attribute, NewValue);
+	
+	//if限制
+	if (Attribute == GetHealthAttribute())
+	{
+		//限制clamp生命值，下限0，上限maxhealth
+		NewValue = FMath::Clamp(NewValue, 0.f, GetMaxHealth());
+	}
+	else if (Attribute == GetStaminaAttribute())
+	{
+		//限制clamp体力值，下限0，上限maxstamina
+		NewValue = FMath::Clamp(NewValue, 0.f, GetMaxStamina());
+	}
+	else if (Attribute == GetMaxHealthAttribute())
+	{
+		//限制clamp生命值容器，下限0，上限10000
+		NewValue = FMath::Clamp(NewValue, 0.f, 10000.f);
+	}
+	else if (Attribute == GetMaxStaminaAttribute())
+	{
+		//限制clamp体力值容器，下限0，上限10000
+		NewValue = FMath::Clamp(NewValue, 0.f, 10000.f);
+	}	
+	
+}
+
+//clamp相关
+//固定指针数值
+void UAttributeSet_basic::PostGameplayEffectExecute(const FGameplayEffectModCallbackData&amp; Data)
+{
+	//取个名字叫data
+	Super::PostGameplayEffectExecute(Data);
+	//作用固定数值设置为当前值
+	//检查属性是什么属性，如果是的话就设置对应的属性填入返回数值，把数值固定在函数中，方便上方clamp调取，不用再fmate
+	if (Data.EvaluatedData.Attribute == GetHealthAttribute())
+	{
+		SetHealth(GetHealth());
+	}
+	else if (Data.EvaluatedData.Attribute == GetStaminaAttribute())
+	{
+		SetStamina(GetStamina());
+	}
+	else if (Data.EvaluatedData.Attribute == GetMaxHealthAttribute())
+	{
+		SetMaxHealth(GetMaxHealth());
+	}
+	else if (Data.EvaluatedData.Attribute == GetMaxStaminaAttribute())
+	{
+		SetMaxStamina(GetMaxStamina());
+	}
+}
+	
+	
+</code></pre>
             ]]>
         </content>
     </entry>
